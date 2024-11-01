@@ -1,0 +1,109 @@
+.swarm-welcome h1{
+    font-family: initial;
+    font-variant: small-caps;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.swarm-tab a.current{
+    background: #00B9E6;
+    padding: 10px 2px 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+.swarm-tab-div{margin-left: 150px;background: rgb(255, 255, 255) none repeat scroll 0 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    width: 84%;float: right;
+}
+.swarm-tab{
+	width:150px;background-color: #fff !important;
+    color: #000 !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    display: block;
+    float: left;
+    
+}
+.swarm-tab a{padding: 10px 2px 10px 15px; display: block; text-decoration: none !important;color:#000000;font-size: 14px;}
+.swarm-effects-tab-div{width: 100%;}
+
+.swarm-error-validation{
+    color: #FF0000;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: initial;
+}
+.position-validation-error{text-align: center;margin-bottom: 15px;}
+
+/*swarm nav menu for form*/
+
+.swarm-tabs-menu {
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
+}
+.swarm-nav-tabs {
+    border-bottom: 0 none !important;
+}
+.swarm-nav-tabs {
+    list-style: outside none none;
+    margin-bottom: -1px !important;
+    padding-left: 0;
+    display: table;
+}
+.swarm-nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.swarm-nav-tabs {
+    list-style: outside none none;
+}
+.swarm-active-tab {
+    background: #00b9e6 none repeat scroll 0 0;
+    color: #fff !important;
+    text-decoration: none;
+}
+.swarm-nav-tabs > li {
+    display: block;
+    position: relative;
+}
+.swarm-nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.swarm-tabs-menu .swarm-nav-tabs > li {
+    margin-bottom: 1px !important;
+    box-sizing: border-box;
+}
+.swarm-nav  > li > a:focus, .swarm-nav  > li > a:hover, .swarm-nav  > li > a:active, .swarm-nav  > li.swarm-active-tab > a {
+    background-color: #00b9e6;
+    border: medium none;
+    color: #ffffff;
+    text-decoration: none;
+}
+.swarm-tabs-menu .swarm-nav-tabs > li > a {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: unset;
+    font-family: initial;
+    font-variant: small-caps;
+    line-height: 1.42857;
+    margin-right: 2px;
+    text-decoration: none;
+}
+.swarm-nav-tabs > li > a {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    line-height: 1.42857;
+    margin-right: 2px;
+}
+.swarm-nav > li > a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}

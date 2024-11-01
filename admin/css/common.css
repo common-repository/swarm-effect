@@ -1,0 +1,141 @@
+.mwp-swarm-close {
+    cursor: pointer;
+    font-size: 10px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.mwp-swarm-block {
+    float: left;
+    min-height: 1px;
+    position: relative;
+    white-space: normal;
+    width: 100%;
+}
+.mwp-swarm-img {
+    border-radius: 35px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+}
+.mwp-swarm-img, .mwp-swarm-text {
+    display: inline-block;
+    float: left;
+    min-height: 1px;
+    vertical-align: middle;
+    white-space: normal;
+}
+.mwp-swarm-icon {
+    font-size: 40px !important;
+    line-height: 40px;
+}
+.mwp-swarm-img {
+    text-align: center;
+}
+.mwp-swarm-img, .mwp-swarm-text {
+    white-space: normal;
+}
+.mwp-swarm-text {
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+}
+.mwp-swarm-img, .mwp-swarm-text {
+    display: inline-block;
+    float: left;
+    min-height: 1px;
+    vertical-align: middle;
+    white-space: normal;
+}
+.mwp-swarm-title {
+    font-weight: bold;
+}
+.mwp-swarm-text {
+    line-height: 1.3;
+}
+.swarm_effect_review_btn{
+ 	background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #ffffff;
+    border-radius: 2px;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    font-variant: small-caps;
+}
+.swarm_effect_review_btn:hover{color:#ffffff;}
+
+/*Overlay css*/
+.swarm_effect_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 13.8%;
+    min-height: 360px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 84.5%;
+    z-index: 1;
+}
+
+.swarm_effect_overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.swarm_effect_overlay a:hover, .swarm_effect_overlay a:focus {
+    color: #f1f1f1;
+}
+.swarm_effect_overlay-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.swarm_effect_overlay-inst{
+    margin-bottom: 15px;
+}
+.swarm_effect_overlay-inst h1{
+    color: #ffffff;
+    font-family: initial;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.swarm_effect_overlay .swarm_effect_twitter_login_link{
+    background: #0073aa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: initial;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 0;
+    padding: 20px 35px;
+    width: 330px;
+    margin-bottom: 10px;
+
+}
+.swarm_effect_overlay .swarm_effect_other_login_link{
+    background: #0073aa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: initial;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 0;
+    padding: 20px 35px;
+    width: 330px;
+}
+
+.swarm_effect_error_overlay{
+    background: #fff none repeat scroll 0 0;
+    color: red;
+    margin: 12px auto;
+    width: 330px;
+}

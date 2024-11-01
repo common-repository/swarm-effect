@@ -1,0 +1,556 @@
+.swarm-add-name{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.swarm-ids input,.swarm-amount-Max input,.swarm-amount-Min input,.swarm-show-max-every input,.swarm-show-min-every input,.swarm-animated-duration input,.swarm-close-button input,.swarm-add-name input,.swarm-add-title input,.swarm-add-icon select,.swarm-style input{width: 100%;padding: 8px;}
+.position-input-div input{width: 92%;padding: 8px;}
+.swarm-add-icon select{height: 42px;}
+.form-label{font-family: initial;
+            font-variant: small-caps;
+            font-size: 15px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            width: 102%;
+}
+.swarm-main{
+    display: block;
+    padding: 15px;
+    width: 45%;
+    float:left;}
+
+.swarm-add-text{
+    width: 45%;
+    float: right;
+    padding: 15px;
+}
+.swarm-add-text textarea{width: 100%;height: 128px;}
+
+.swarm-add-title{
+    margin: 0px auto;
+}
+
+.swarm-add-icon-custom{
+    margin: 13px auto;
+    font-variant: small-caps;
+    font-family: initial;
+    letter-spacing: 3px;
+}
+.swarm-add-content{border: 1px solid #cccccc;margin-top: 15px;float: left;width: 100%;}
+
+.swarm-add-content1{
+    width: 100%;
+}
+.swarm-nca1{
+    width: 49%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.swarm-name-lable{
+    font-variant: small-caps;
+    font-family: initial;
+    letter-spacing: 3px;
+}
+
+.swarm-nca2{
+    width: 50%;
+    float: right;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.swarm-name-lable2{
+    font-variant: small-caps;
+    font-family: initial;
+    letter-spacing: 3px;
+}
+.swarm-add-content h1,.swarm-style h1,.swarm-close-button h1,.position-input-div h1{ border-bottom: 2px solid;
+                                                              font-family: initial;
+                                                              font-size: 20px;
+                                                              font-variant: small-caps;
+                                                              padding: 2px 0 4px 15px;
+}
+.swarm-style{border: 1px solid #cccccc;margin-top: 15px;float: left;width: 100%;}
+.swarm-col-1,.swarm-col-2,.swarm-col-3,.swarm-col-4{float:left;width: 24.5%;padding: 15px;}
+.swarm-border-radius,.swarm-left-position,.swarm-border-width,.swarm-right-position,.swarm-top-position,.swarm-background-color,.swarm-bottom-position,.swarm-border-color,.swarm-text-color{margin-bottom: 10px;}
+.swarm-close-button{
+    border: 1px solid #cccccc;margin-top: 15px;float: left;width: 100%;
+}
+.close-btn{
+    float: left;
+    display: block;
+    width: 90%;
+}
+.hide-close-chk{
+    float: right;
+    display: block;
+    width: 10%;
+}
+.swarm-display{
+    border: 1px solid #cccccc;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+.swarm-display h1 {
+    border-bottom: 2px solid;
+    font-family: initial;
+    font-size: 20px;
+    font-variant: small-caps;
+    padding: 2px 0 4px 15px;
+}
+.top{
+    margin-top: 15px;
+}
+.swarm-animated-display .swarm-dis{
+    width: 100%;
+    height: 40px;
+    -moz-appearance: none !important;
+    background-image: url("../img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.swarm-appearance-mode .swarm-appearance{
+    width: 100%;
+    height: 40px;
+    -moz-appearance: none !important;
+    background-image: url("../img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+
+.swarm-nca{
+    border: 1px solid #cccccc;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+.swarm-nca h1 {
+    border-bottom: 2px solid;
+    font-family: initial;
+    font-size: 20px;
+    font-variant: small-caps;
+    padding: 2px 0 4px 15px;
+}
+
+.swarm-name textArea{
+    width: 100%;
+    height: 100px;
+}
+.swarm-city textArea{
+    width: 100%;
+    height: 100px;
+}
+
+.city-min ,.city-max{
+    width: 45%
+}
+.city-max{float: right;}
+.show-swarm-effect{
+    border: 1px solid #cccccc;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+.show-swarm-effect h1{
+    border-bottom: 2px solid;
+    font-family: initial;
+    font-size: 20px;
+    font-variant: small-caps;
+    padding: 2px 0 4px 15px;
+}
+.wid{
+    width: 46%
+}
+.show-model-window select{
+    width: 79%;
+    height: 45px;
+}
+.show-model-window select{
+    width: 85%;
+    height: 39px;
+    width: 86%;
+    -moz-appearance: none !important;
+    background-image: url("../img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.show-model-id select{
+    width: 79%;
+    height: 45px;
+}
+.input-group-addon{
+    border-radius: 0px !important;
+}
+
+
+/* Position CSS */
+.swarm-position-div{position: relative;}
+.swarm-pos-left-top{
+    width: 15%;
+    padding: 10px;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+    height: 5%;
+    left: 18%;
+}
+.swarm-pos-middle-top{
+    background: #fff none repeat scroll 0 0;
+    height: 5%;
+    padding: 10px;
+    position: absolute;
+    right: 42%;
+    top: 20%;
+    width: 15%;
+}
+.swarm-pos-right-top{
+    background: #fff none repeat scroll 0 0;
+    height: 5%;
+    padding: 10px;
+    position: absolute;
+    right: 18%;
+    top: 20%;
+    width: 15%;
+}
+.swarm-pos-left-bottom{
+    background: #fff none repeat scroll 0 0;
+    bottom: 28%;
+    height: 5%;
+    left: 18%;
+    padding: 10px;
+    position: absolute;
+    width: 15%;
+}
+.swarm-pos-middle-bottom{
+    background: #fff none repeat scroll 0 0;
+    bottom: 28%;
+    height: 5%;
+    padding: 10px;
+    position: absolute;
+    right: 42%;
+    width: 15%;
+}
+
+.swarm-pos-right-bottom{
+     background: #fff none repeat scroll 0 0;
+    bottom: 28%;
+    height: 5%;
+    padding: 10px;
+    position: absolute;
+    right: 18%;
+    width: 15%;
+}
+.swarm-pos-middle-right{
+    background: #fff none repeat scroll 0 0;
+    height: 5%;
+    padding: 10px;
+    position: absolute;
+    right: 18%;
+    top: 44%;
+    width: 15%;
+}
+.swarm-pos-middle-left{
+   	background: #fff none repeat scroll 0 0;
+    height: 5%;
+    left: 18%;
+    padding: 10px;
+    position: absolute;
+    top: 44%;
+    width: 15%;
+}
+.swarm_position_div:hover{background: #7FFF00;}
+
+.active_position{
+    background: #7FFF00;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+.swarm_position_div{
+	cursor: pointer;
+}
+.show,.dshow{
+    width: 100%;
+}
+.add-rules input{
+    width: 100%;
+    height: 60px;
+
+}
+.add_show{
+    width: 30%;
+}
+.add_show input{
+    height: 34px;
+}
+.add_dshow{
+    width: 35%;
+}
+.add_dshow input{
+    height: 34px;
+}
+
+.show_box{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.dshow_box{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+#show{
+    border: 0px;
+    background: #66C3D9;
+    color: #fff;
+    margin-top: 10px;
+}
+.show_box_add{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    float: left;
+}
+.show{
+    width: 25%;
+    display: block;
+    float: left;
+
+}
+.matching{
+    width: 25%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.rules-box{
+    width: 100%;
+}
+.show select{
+    width: 86%;
+    height: 45px;
+    -moz-appearance: none !important;
+    background-image: url("../img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.matching select{
+    width: 90%;
+    height: 45px;
+}
+.rules-box input{
+    width: 177%;
+    height: 45px;
+}
+.add-to-rule input{
+    height: 26px;
+    border: 0;
+    background: #66C3D9;
+    color: #fff;
+    font-variant: small-caps;
+    font-family: initial;
+    border-radius: 0px;
+}
+.add-to-rule{
+    border-right: 1px solid #ccc;
+    width: 16%;
+    text-align: center;
+    margin: -1px auto;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #F0F3F5;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 2px;
+    background: #F0F3F5;
+    margin-bottom: 10px;
+}
+.add-another-rule{
+    width: 100%;
+}
+.add-another-rule input{
+    width: 17%;
+    float: left;
+    border: 0;
+    height: 34px;
+    color: #fff;
+    background: #A52A2A;
+    font-family: initial;
+    font-variant: small-caps;
+    border-radius: 2px;
+}
+.swarm-right-div{
+    width: 48%;
+    display: inline-flex;
+}
+.swarm-delete-rule{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.dashicons.dashicons-no-alt{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#another{
+    margin-top: 10px;
+}
+.swarm-dynamic{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #F0F3F5;
+    margin-bottom: 10px;
+}
+
+
+
+.dshow_box_add{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    float: left;
+}
+.swarm-ddynamic{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #F0F3F5;
+    margin-bottom: 10px;
+}
+.dshow{
+    width: 25%;
+    display: block;
+    float: left;
+}
+.dshow select{
+    width: 86%;
+    height: 45px;
+    -moz-appearance: none !important;
+    background-image: url("../img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.dmatching select{
+    width: 90%;
+    height: 45px;
+}
+.swarm-dright-div{
+    width: 48%;
+    display: inline-flex;
+}
+.drules-box{
+    width: 100%;
+}
+.swarm-delete-drule{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.add-to-drule input{
+    height: 26px;
+    border: 0;
+    background: #66C3D9;
+    color: #fff;
+    font-variant: small-caps;
+    font-family: initial;
+    border-radius: 0px;
+}
+.add-to-drule{
+    border-right: 1px solid #ccc;
+    width: 16%;
+    text-align: center;
+    margin: -1px auto;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #F0F3F5;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 2px;
+    background: #F0F3F5;
+    margin-bottom: 10px;
+}
+.add-another-drule{
+    width: 100%;
+}
+.add-another-drule input{
+    width: 17%;
+    float: left;
+    border: 0;
+    height: 34px;
+    color: #fff;
+    background: #A52A2A;
+    font-family: initial;
+    font-variant: small-caps;
+    border-radius: 2px;
+}
+#danother{
+    margin-top: 10px;
+}
+.dmatching{
+    width: 25%;
+    float: left;
+}
+.drules-box input{
+    width: 177%;
+    height: 45px;
+}
+#dshow{
+    border: 0px;
+    background: #66C3D9;
+    color: #fff;
+    margin-top: 10px;
+}
+.swarm-add-icon select{
+    -moz-appearance: none !important;
+    background-image: url("../img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.swarm_position_image img{width: 100%;}
+.swarm_position_image{border-bottom: 2px solid #888888;}
+.position-input-div{margin-top: 15px; border: 1px solid #cccccc;width: 100%;float: left;}
+.col-1-position{float: left;width: 45%;padding: 10px;}
+.col-2-position{float:right;width: 45%;padding: 10px;}
+
+#titlediv #title-prompt-text {
+    color: #72777c;
+    position: absolute;
+    font-size: 21px;
+    padding: 4px 10px;
+    font-weight: normal;
+}
+#wpcontent,#wpwrap{
+    background: #F1F1F1;
+}
+.preview_icon{font-size: 30px;}
+.swarm-backdround-select select{width: 150px;float: left;}
+.swarm-backdround-select .swarm_previw_bg{border: 1px solid #dadada;float: left;background-color: #000000;border-radius: 3px;box-sizing: border-box;font-family: Verdana;font-size: 12px;height: 85px;padding: 10px;color:#ffffff;}
+.swarm-backdround-select .mwp-swarm-title-preview{font-weight: bold;}
+.swarm-backdround-select-div{float: left;padding: 15px;width: 100%;}
+.swarm-text-variable{font-style: italic;}
+.min-max-second-text{float: left;padding: 0 15px 10px;width: 100%;}
+.swarm-backdround-select .swarm-backdround-theme{float: left;width: 35%;}
+.swarm-next-btn{margin-top: 15px;float: left;width: 100%;}
+.swarm-next-btn .btn-swarm{border-radius: 2px;width: 70px;}
+.swarm-error{
+	color:#cc0000;
+	border: 1px solid #cc0000;
+	box-shadow:0 0 3px 0 #cc0000;
+	border-radius:2px;
+	padding: 10px;	
+	font-size: 15px;
+}
